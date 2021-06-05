@@ -8,7 +8,7 @@ body = {
     "age":24,
     "city_Name":"Hyderabad",
     "state_Name":"Telangana",
-    "subjectId":4
+    "subjectId":3
     }
 resp_code = requests.post(host_url + '/users', data = body)
 print(resp_code)

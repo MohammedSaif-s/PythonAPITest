@@ -4,7 +4,7 @@ import requests
 host_url = 'http://localhost:3000'
 #parms = {'id':3}    #to retrieve the specific id from the json file
 #response_code = requests.get(host_url + '/users', params=parms)
-response_code = requests.get(host_url + '/users')
+response_code = requests.get(host_url + '/users?id=3')
 print('The result of this GET request is: ')
 print(response_code)
 print(response_code.headers)
